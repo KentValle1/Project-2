@@ -15,7 +15,7 @@
                   {{/if}} --}}
                     {{!-  {{#unless isAuthenticated}}
                     <script src="assets/js/request.js" charset="utf-8"></script>
-                    <li role="presentation"><a href="/recipeSearch">EXPLORE NEW GENRES</a></li>
+                    <li role="presentation"><a href="/genreSearch">EXPLORE NEW GENRES</a></li>
                     <li role="presentation"><a href="/#howitworks">HOW IT WORKS</a></li>
                    {{!--  <li role="presentation"><a href="/login">LOGIN </a></li>
                     <li role="presentation"><a id="signupBtn" href="/register">SIGN UP</a></li> --}}
@@ -24,4 +24,19 @@
             </div>
         </div>
     </nav>
+</div>
+<br><br><br>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="navbar ">
+        <form class="search-form text-center">
+          {{!-- <div class="inner-addon right-addon"> --}}
+          <div id="search-form-div">
+              <input id="searchGenre" type="text" class="form-control" />
+              <a id="searchGenreButton" name="button"><i id="searchIcon"class="glyphicon glyphicon-search pull-right"></i></a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
 </div>
