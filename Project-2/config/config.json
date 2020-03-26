@@ -1,8 +1,8 @@
 {
   "development": {
     "username": "root",
-    "password": null,
-    "database": "exampledb",
+    "password": "TreeHugger10!",
+    "database": "album_genresDB",
     "host": "localhost",
     "dialect": "mysql"
   },
