@@ -9,7 +9,7 @@ CREATE TABLE ROCK (
   artist VARCHAR(100) NULL,
   album VARCHAR(100) NULL,
   date VARCHAR(100) NULL,
-  info TEXT(1000) NULL,
+  genre TEXT(100) NULL,
   like_artists VARCHAR(400) NULL,
   PRIMARY KEY (position)
 );
@@ -19,7 +19,7 @@ CREATE TABLE POP (
   artist VARCHAR(100) NULL,
   album VARCHAR(100) NULL,
   date VARCHAR(100) NULL,
-  info TEXT(1000) NULL,
+  genre TEXT(100) NULL,
   like_artists VARCHAR(400) NULL,
   PRIMARY KEY (position)
 );
@@ -29,7 +29,7 @@ CREATE TABLE COUNTRY (
   artist VARCHAR(100) NULL,
   album VARCHAR(100) NULL,
   date VARCHAR(100) NULL,
-  info TEXT(1000) NULL,
+  genre TEXT(100) NULL,
   like_artists VARCHAR(400) NULL,
   PRIMARY KEY (position)
 );
@@ -39,7 +39,7 @@ CREATE TABLE ELECTRONIC (
   artist VARCHAR(100) NULL,
   album VARCHAR(100) NULL,
   date VARCHAR(100) NULL,
-  info TEXT(1000) NULL,
+  genre TEXT(100) NULL,
   like_artists VARCHAR(400) NULL,
   PRIMARY KEY (position)
 );
@@ -49,7 +49,7 @@ CREATE TABLE METAL (
   artist VARCHAR(100) NULL,
   album VARCHAR(100) NULL,
   date VARCHAR(100) NULL,
-  info TEXT(1000) NULL,
+  genre TEXT(100) NULL,
   like_artists VARCHAR(400) NULL,
   PRIMARY KEY (position)
 );
@@ -59,7 +59,7 @@ CREATE TABLE HIPHOP (
   artist VARCHAR(100) NULL,
   album VARCHAR(100) NULL,
   date VARCHAR(100) NULL,
-  info TEXT(1000) NULL,
+  genre TEXT(100) NULL,
   like_artists VARCHAR(400) NULL,
   PRIMARY KEY (position)
 );
@@ -69,7 +69,7 @@ CREATE TABLE BLUESSOUL (
   artist VARCHAR(100) NULL,
   album VARCHAR(100) NULL,
   date VARCHAR(100) NULL,
-  info TEXT(1000) NULL,
+  genre TEXT(100) NULL,
   like_artists VARCHAR(400) NULL,
   PRIMARY KEY (position)
 );
