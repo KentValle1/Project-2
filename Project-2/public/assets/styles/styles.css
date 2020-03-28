@@ -88,7 +88,7 @@
 
 .login-dark {
   height:802px;
-  background: url(../../assets/img/prep.jpg) no-repeat left;
+  background: url(Project-2/public/assets/img/Musical-banner.jpg) no-repeat left;
   background-size:cover;
   border:none;
   background-attachment: fixed;
@@ -581,7 +581,7 @@
 .register-photo {
   background:#fff;
   padding:60px 0;
-  background:url(../../assets/img/prep.jpg) no-repeat center;
+  background: url(Project-2/public/assets/img/Musical-banner.jpg) no-repeat left;
   background-size:cover;
   position: relative;
   border:none;
