@@ -1,0 +1,9 @@
+{
+  "development": {
+    "username": "root",
+    "password": "password",
+    "database": "album_genresDB",
+    "host": "localhost",
+    "dialect": "mysql"
+  }
+}
