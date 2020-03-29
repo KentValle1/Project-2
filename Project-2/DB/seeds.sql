@@ -26,7 +26,7 @@ VALUES
 	(22, "Arcade Fire" , "Funeral" , "September 14 2004", "Indie Pop Rock", "The National, Band of Horses, The Shins" ),
 	(23, "My Chemical romance" , "The Black Parade" , "October 24 2006", "Emo Punk", "Fallout Boy, Hawethorne Heights, Paramore" ),
 	(24, "The Black Keys" , "El Camino" , "December 06 2011", "Blues Rock Rivial", "Mumford and Sons, Cage the Elephant, Queens of the Stone Age" ),
-	(25, "Imagine Dragons" , "Night Visions" , "September 04 2012", "Indie Pop Rock", "AWOLNATION, 21 Pilots, Walk the Moon"),
+	(25, "Imagine Dragons" , "Night Visions" , "September 04 2012", "Indie Pop Rock", "AWOLNATION, 21 Pilots, Walk the Moon")
     
 INSERT INTO POP (position, artist, album, date, genre, like_artists)
 VALUES
@@ -54,7 +54,7 @@ VALUES
 (22, "Adele". "21", "January 24 2011", "Adult Contemporary Pop", "Lana Del Rey, Florence & The Machine, Carley Ray Jepsen"),
 (23, "Vampire Weekend" , "Modern Vampires of the City" , "May 14 2013" , "Baroque Pop" , "Passion Pit, Spoon, Grizly Bear"),
 (24, "Tame Impala" , "Currents" , "July 15 2015" , "New Pychedelic Pop" ,  "Animal Collective, MGMT, Beach House"),
-(25, "Arianna Grande" , "Thank you Next" , "February 08 2019", "Pop" , "Camila Cabello, Charlie XCX, Halsey"),
+(25, "Arianna Grande" , "Thank you Next" , "February 08 2019", "Pop" , "Camila Cabello, Charlie XCX, Halsey")
 
 
 INSERT INTO METAL (position, artist, album, date, genre, like_artists)
@@ -84,7 +84,7 @@ VALUES
 (22, "Sabaton", "Carolus Rex", "May 25 2012", "Power Metal", "Helloween, DragonForce, Blind Guardian"),
 (23, "Bring me the Horizon", "April 02 2013", "Alternative Metalcore", "Asking Alexandria, Enter Shikari, A Day to Remember"),
 (24, "Deafhaven", "Sunbather", "June 11 2013" , "Atmospheric Black Metal", "Altar of Plauges, Wolves in the Throne Room, Liturgy"),
-(25, "Ghost" , "Meloria" , "August 21 2015" , "Gothic Metal" , "Kvelertak, Candlemass, Type O Negative"),
+(25, "Ghost" , "Meloria" , "August 21 2015" , "Gothic Metal" , "Kvelertak, Candlemass, Type O Negative")
 
 
 
@@ -115,7 +115,7 @@ VALUES
 (22, "Run the Jewels" , "Run the Jewels 3", "December 24 2016" , "Hardcore Hip-Hop", "Killer Mike, El-P, Big Grams"),
 (23, "Tyler the Creator", "Flower Boy" , "July 21 2017" , "Alternative Hip-Hop, Abstract Rap" , "Aesop Rock, Busdriver, Open Mike Eagle"),
 (24, "Post Malone" ,"Beerbongs & Bentleys" , "April 27 2018" , "Trap Rap, Emo Rap", "Rae Sremmurd, Migos, Juice WRLD"),
-(25, "Denzell Curry" , "Ta13oo" , "July 27 1018" , "Trap Rap, Conscious Hip-Hop", "21 Savage, Future, Lil Uzi Vert"),
+(25, "Denzell Curry" , "Ta13oo" , "July 27 1018" , "Trap Rap, Conscious Hip-Hop", "21 Savage, Future, Lil Uzi Vert")
 
 
 INSERT INTO ELECTRONIC (position, artist, album, date, genre, like_artists)
@@ -146,7 +146,7 @@ Final Fantasy VII Original Sound Track"),
 (22, "Calvin Harris", "18 Months", "October 26 2012", "Future House", "Lost Frequencies, Sigala, Cheat Codes"),
 (23, "Avicii", "True", "September 13 2013", "House Pop" , "Zedd, The ChainSmokers, Martin Jensen"),
 (24, "FKA Twigs" , "LP1 ", "August 06 2014" , "Glitch Pop" , "SZA, M.I.A, Arca"),
-(25, "Billie Eilish", "When We All Fall Asleep, Where Do We Go?", "March 29 2019", "ElectroPop", "Lorde, King Princess, Poppy" ),
+(25, "Billie Eilish", "When We All Fall Asleep, Where Do We Go?", "March 29 2019", "ElectroPop", "Lorde, King Princess, Poppy" )
 
 
 
@@ -178,7 +178,7 @@ VALUES
 (22, "Taylor Swift" , "Red" , "October 22 2012" , "Country Pop", "Kelly Clarkson, Miley Cyrus, Casey Musgraves"),
 (23, "Sturgill Simpson", "Metamodern Sounds in Country Music", "May 13 2014", "Alt-Country", "Jason Isbell, Justin Townes Earle, Hayes Carll"),
 (24, "Keith Urban" , "Ripcord" , "May 06 2016" , "Country Pop", "Blake Shelton, Billy Currington, Eric Church"),
-(25, "Florida Georgia Line" , "Dig Your Roots" , "August 26 2016" , "Country Crossover" , "Dustin Lynch, Brantley Gilbert, Thomas Rhett"),
+(25, "Florida Georgia Line" , "Dig Your Roots" , "August 26 2016" , "Country Crossover" , "Dustin Lynch, Brantley Gilbert, Thomas Rhett")
 
 
 
@@ -210,4 +210,4 @@ VALUES
 (22, "Usher" , "Confessions" , "March 23 2004" , "R&B" , "Mario, Jagged Edge, Lloyd"),
 (23, "Janelle Monae" , "The ArchAndroid" , "May 18 2010" , "Future R&B" , "Jill Scott, Erykah Badu, Azealia Banks"),
 (24, "The Weeknd" , "Beauty Behind the Madness" , "August 28 2015" , "Alternative R&B" , "Childish Gambino, Miguel, Big Sean"),
-(25, "Frank Ocean" , "Blonde" , "August 20 2016" , "Alternative R&B" , "Blood Orange, Kevin Abstract, The Internet"),
+(25, "Frank Ocean" , "Blonde" , "August 20 2016" , "Alternative R&B" , "Blood Orange, Kevin Abstract, The Internet")
