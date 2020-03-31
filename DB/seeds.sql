@@ -1,16 +1,14 @@
-USE album_genresDB;
-
 INSERT INTO ROCK (artist, album, date, genre, like_artists)
 VALUES("Elvis", "Elvis’ Golden Records" , "March 21 1958", "Rock'n'Roll", "Buddy Holly, Chuck Berry, Jerry Lee Lewis"),
 ("Beatles", "St Peppers Lonely Heart’s Club Band", "May 26 1967", "Psychedelic Pop Rock", "The Kinks, The Animals, The Yardbirds"),
-("Rolling Stones" , "Beggars Banquet" , "December 06 1968", "Rock'n'Roll" "The Doors, Steppenwolf, Creedence Clearwater Revival"),
+("Rolling Stones" , "Beggars Banquet" , "December 06 1968", "Rock'n'Roll", "The Doors, Steppenwolf, Creedence Clearwater Revival"),
 ("Led Zepplin", "IV" , "November 08 1971", "Hard Rock", "The Who, Deep Purple, Cream"),
 ("Pink Floyd" , "Darkside of the Moon" , "March 01 1973", "Progressive Rock", "Yes, Genisis, King Crimson"),
 ("Thin Lizzy" , "Jailbreak ", "March 26 1975", "Hard Rock", "Blue Oyster Cult, UFO, Rainbow"),
-("Rush" , "2112" , "April 01 1976", "Progressive Rock", "Jethero Tull, Emerson Lake & Palmer, Styx"),
-("Ramones ", "Ramones" ,"April 23 1976", "Punk Rock", "Sex Pistols, Dead Kennedys, Iggy Pop and the Stooges"),
+("Rush" , "2112" , "April 01 1976", "Progressive Rock", "Jethero Tull, Emerson Lake and Palmer, Styx"),
+("Ramones ", "Ramones", "April 23 1976", "Punk Rock", "Sex Pistols, Dead Kennedys, Iggy Pop and the Stooges"),
 ("FleetWood Mac" , "Rumors" , "February 04 1977", "Pop Rock", "Tom Petty and the Heartbreakers, Boston, Eagles"),
-("Joy Division", "Unknown Pleasures", "June 15 1979", "Post-Punk Rock", "Wire, Echo and the Bunnymen, Gang of Four"),
+("Joy Division", "Unknown Pleasures", "June 15 1979", "Post Punk Rock", "Wire, Echo and the Bunnymen, Gang of Four"),
 ("The Clash" , "London Calling" , "December 14 1979", "Punk Rock", "The Damned, Social Distortion, Buzzcocks"),
 ("Def Leopard" , "Pyromania"  , "January 20 1983", "Glam Rock", "Quiet Riot, Warrant, Ratt"),
 ("U2" , "The Joshua Tree" , "March 09 1987", "Pop Rock", "The Police, Billy Idol, Duran Duran"),
@@ -53,7 +51,7 @@ VALUES("Beach Boys" , "All Summer Long" , "July 01 1964" , "Baroque Pop" , "The 
 ("Tame Impala" , "Currents" , "July 15 2015" , "New Pychedelic Pop" ,  "Animal Collective, MGMT, Beach House"),
 ("Arianna Grande" , "Thank you Next" , "February 08 2019", "Pop" , "Camila Cabello, Charlie XCX, Halsey");
 
-INSERT INTO METAL (position, artist, album, date, genre, like_artists)
+INSERT INTO METAL (artist, album, date, genre, like_artists)
 VALUES("Black Sabbath" , "Paranoid" , "September 18 1970" , "Heavy Metal",  "Dio, Ozzy Osbourne, Danzig"),
 ("Iron Maiden" , "The Number of the Beast" , "March 1982" , "Heavy Metal", "Manowar, Saxon, Diamond Head"),
 ("Slayer", "Reign in Blood", "October 07 1982", "Thrash Metal", "Venom, Overkill, Kreator"),
@@ -64,7 +62,7 @@ VALUES("Black Sabbath" , "Paranoid" , "September 18 1970" , "Heavy Metal",  "Dio
 ("Dream Theater" , "Images and Words" , "July 07 1992", "Progressive Metal" , "Symphony X, Ayreon, Fates Warning"),
 ("Emperor" , "In the Nightside Eclipse" , "February 21 1994" , "Symphonic Black Metal" , "Immortal, Behemoth, Deathspell Omega"),
 ("Death" , "Symbolic" , "March 21 1995" , "Death Metal" , "Obituary, Morbid Angle, Atheist"),
-("At the Gates" , "October 03 1995", "Melodic Death Metal" , "Carcass, Dark Tranquility, In Flames"),
+("At the Gates" , "Slaughter of the Soul", "October 03 1995", "Melodic Death Metal" , "Carcass, Dark Tranquility, In Flames"),
 ("Deftones" , "White Pony", "June 20 2000" , "Nu Metal" , "Chevell, Vexes, Sevendust"),
 ("Opeth" , "Black Water Park" , "March 12 2001" ,"Progressive Death Metal" , "Devin Townsend, Leprous, Agalloch"),
 ("Tool" , "Lateralus" , "May 15 2001" ,"Alternative Progressive Metal" , "A Perfect Cirle, Faith No More, Melvins"),
@@ -73,14 +71,14 @@ VALUES("Black Sabbath" , "Paranoid" , "September 18 1970" , "Heavy Metal",  "Dio
 ("Lamb of God" , "Ashes of the Wake" , "August 31 2004" ,"Groove Metal", "DevilDriver, Shadows Fall, Hatebreed"),
 ("Gojira" , "From Mars to Sirus" , "September 27 2005" , "Progressive Death Metal" , "Meshuggah, Strapping Young Lad, Revocation"),
 ("Killswitch Engage" , "As Daylight Dies" , "November 21 2006", "Melodic Metalcore" , "As I Lay Dying, All That Remains, Parkway Drive" ),
-("Avenged Sevenfold" , "Avenged Sevenfold" "Ocotber 30 2007" , "Modern Heavy Metal" , "Bullet for My Valentine, Escape the Fate, Atreyu"),
+("Avenged Sevenfold" , "Avenged Sevenfold", "Ocotber 30 2007" , "Modern Heavy Metal" , "Bullet for My Valentine, Escape the Fate, Atreyu"),
 ("Mastodon" , "Crack the Skye" , "March 24 2009" , "Progressive Metal" , "Baroness, The Ocean, Between the Buried and Me"),
 ("Sabaton", "Carolus Rex", "May 25 2012", "Power Metal", "Helloween, DragonForce, Blind Guardian"),
-("Bring me the Horizon", "April 02 2013", "Alternative Metalcore", "Asking Alexandria, Enter Shikari, A Day to Remember"),
+("Bring me the Horizon", "Sempiternal", "April 02 2013", "Alternative Metalcore", "Asking Alexandria, Enter Shikari, A Day to Remember"),
 ("Deafhaven", "Sunbather", "June 11 2013" , "Atmospheric Black Metal", "Altar of Plauges, Wolves in the Throne Room, Liturgy"),
 ("Ghost" , "Meloria" , "August 21 2015" , "Gothic Metal" , "Kvelertak, Candlemass, Type O Negative");
 
-INSERT INTO HIPHOP (position, artist, album, date, genre, like_artists)
+INSERT INTO HIPHOP (artist, album, date, genre, like_artists)
 VALUES("N.W.A" , "Straight Outta Compton" , "August 08 1988" , "Gangster Rap", "Ice Cube, Dr. Dre, Ice T"),
 ("Public Enemy" , "Fear of a black Planet" , "April 10 1990" , "Conscious Hip-Hop", "Eric B & Rakim, Big Daddy Kane, Naughty By Nature"),
 ("LL Cool J" , "Mama Said Knock you Out", "September 18 1990" , "East Coast Hip-Hop" , "Run DMC, Sir Mix Alot, MC Hammer"),
@@ -107,7 +105,7 @@ VALUES("N.W.A" , "Straight Outta Compton" , "August 08 1988" , "Gangster Rap", "
 ("Post Malone" ,"Beerbongs & Bentleys" , "April 27 2018" , "Trap Rap, Emo Rap", "Rae Sremmurd, Migos, Juice WRLD"),
 ("Denzell Curry" , "Ta13oo" , "July 27 1018" , "Trap Rap, Conscious Hip-Hop", "21 Savage, Future, Lil Uzi Vert");
 
-INSERT INTO ELECTRONIC (position, artist, album, date, genre, like_artists)
+INSERT INTO ELECTRONIC (artist, album, date, genre, like_artists)
 VALUES("Kraftwork", "Computer World", "May 10 1981", "Electronic" , "Yello, Devo, The Art of Noise"),
 ("New Order", "Power, Corruption & Lies", "May 02 1983", "Synthpop", "The Cure, Eurythmics, The Psychedelic Furs"),
 ("Pet Shop Boys", "Actually", "September 07 1987", "Synthpop", "A-Ha, The Human League, Erasure"),
@@ -121,7 +119,7 @@ VALUES("Kraftwork", "Computer World", "May 10 1981", "Electronic" , "Yello, Devo
 Final Fantasy VII Original Sound Track"),
 ("Massive Attack", "Mezzanine", "April 20 1998", "Trip Hop" , "Tricky, UNLIKE, Morcheeba"),
 ("Boards of Canada", "Music Has the Right to Children", "April 20 1998", "Experimental Dance Music", "Plaid, u-Ziq, Tycho"),
-("Moby", "Play", "May 17 1999", "Electronic Dance Music" "Underworld, Faithless, Groove Armada"),
+("Moby", "Play", "May 17 1999", "Electronic Dance Music", "Underworld, Faithless, Groove Armada"),
 ("The Avalancess" , "Since I left you", "November 27 2000" , "Experimental Dance Music" , "The Microphones, Sweet Trip, Shabazz Palaces" ),
 ("Daft Punk", "Discovery", "March 09 2001", "House Music", "Justice, Cassius, Kavinsky"),
 ("The Knife", "Silent Shout", "February 17 2006", "House Music", "Zeigeist, Ladytron, iamamiwhoami" ),
@@ -135,7 +133,7 @@ Final Fantasy VII Original Sound Track"),
 ("FKA Twigs" , "LP1 ", "August 06 2014" , "Glitch Pop" , "SZA, M.I.A, Arca"),
 ("Billie Eilish", "When We All Fall Asleep, Where Do We Go?", "March 29 2019", "ElectroPop", "Lorde, King Princess, Poppy");
 
-INSERT INTO COUNTRY (position, artist, album, date, genre, like_artists)
+INSERT INTO COUNTRY (artist, album, date, genre, like_artists)
 VALUES("Neil Young" ," After the Gold Rush ", "September 19 1970" , "Country Rock", "Crosby Stills & Nash, Buffalo Springfield, Nick Drake"),
 ("Allman Brothers" , "Brothers and Sisters" , "August 1973" , "Southern Rock" , "Gov't Mule, The Outlaws, James Gang"),
 ("Dolly Parton" , "Jolene" , "February 04 1974" , "Traditional Coutry" , "Loretta Lynn, Tanya Tucker, Tammy Wynette"),
@@ -162,7 +160,7 @@ VALUES("Neil Young" ," After the Gold Rush ", "September 19 1970" , "Country Roc
 ("Keith Urban" , "Ripcord" , "May 06 2016" , "Country Pop", "Blake Shelton, Billy Currington, Eric Church"),
 ("Florida Georgia Line" , "Dig Your Roots" , "August 26 2016" , "Country Crossover" , "Dustin Lynch, Brantley Gilbert, Thomas Rhett");
 
-INSERT INTO BLUESSOUL (position, artist, album, date, genre, like_artists)
+INSERT INTO BLUESSOUL (artist, album, date, genre, like_artists)
 VALUES("Miles Davis" , "Kind of Blue" , "August 17 1959" , "Jazz Fusion", "Sonny Rollins, Thelonius Monk, Wayne Shorter"),
 ("John Coltrane" , "A Love Supreme" , "February 1965" , "Jazz" , "Dexter Gordon, Freddie Hubbard, Charles Mingus"),
 ("Muddy Waters" , "The Real Folk Blues" ,  "January 1966" , "Blues", "Otis Rush, John Lee Hooker, Little Walter"),
