@@ -22,10 +22,10 @@ app.engine(
 app.set("view engine", "handlebars");
 
 // Routes
-require("./routes/country-api-routes")(app);
-require("./routes/electronic-api-routes")(app);
-require("./routes/hiphop-api-routes")(app);
-require("./routes/htmlRoutes")(app);
+require("./routes/country-api-routes.js")(app);
+require("./routes/hiphop-api-routes.js")(app);
+require("./routes/electronic-api-routes.js")(app);
+require("./routes/htmlRoutes.js")(app);
 
 var syncOptions = { force: false };
 

@@ -2,15 +2,15 @@ var db = require("../models");
 
 module.exports = function(app){
     app.get("/api/hiphop", function(req, res){
-        db.hiphop.findAll({}).then(function(dbHiphop){
+        db.Hiphop.findAll({}).then(function(dbHiphop){
             res.json(dbHiphop);
         });
     });
 
     app.get("/api/hiphop/:id", function(req, res){
-        db.hiphop.findOne({
+        db.Hiphop.findOne({
             where: {
-                id: req.params.id
+                artist: req.params.artist
             }
         }).then(function(dbHiphop){
             res.json(dbHiphop);
