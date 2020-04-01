@@ -2,7 +2,7 @@ var db = require("../models");
 
 module.exports = function(app) {
   app.get("/api/pop", function(req, res) {
-    db.country.findAll({}).then(function(dbPop) {
+    db.pop.findAll({}).then(function(dbPop) {
       res.json(dbPop);
     });
   });

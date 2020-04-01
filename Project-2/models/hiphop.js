@@ -17,7 +17,7 @@ module.exports = function(sequelize, DataTypes) {
       allowNull: false
     },
     // eslint-disable-next-line camelcase
-    like_artist: {
+    like_artists: {
       type: DataTypes.STRING,
       allowNull: false
     }
