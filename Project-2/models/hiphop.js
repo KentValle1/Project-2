@@ -1,5 +1,5 @@
 module.exports = function(sequelize, DataTypes) {
-  return sequelize.define("ROCK", {
+  var Hiphop = sequelize.define("Hiphop", {
     artist: {
       type: DataTypes.STRING,
       allowNull: false
@@ -17,9 +17,10 @@ module.exports = function(sequelize, DataTypes) {
       allowNull: false
     },
     // eslint-disable-next-line camelcase
-    like_artists: {
+    like_artist: {
       type: DataTypes.STRING,
       allowNull: false
     }
   });
+  return Hiphop;
 };

@@ -1,9 +1,10 @@
-var db = require("../models");
+var models = require("../models");
+var Rock = models.Rock;
 
 module.exports = function(app) {
   app.get("/api/rock", function(req, res) {
-    db.Rock.findAll({}).then(function(dbRock) {
-      res.json(dbRock);
+    Rock.findAll({}).then(function(Rock) {
+      res.json(Rock);
     });
   });
 
@@ -12,8 +13,8 @@ module.exports = function(app) {
       where: {
         id: req.params.id
       }
-    }).then(function(dRock) {
-      res.json(dRock);
+    }).then(function(dbRock) {
+      res.json(dbRock);
     });
   });
 };
