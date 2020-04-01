@@ -1,15 +1,15 @@
 module.exports = function(sequelize, DataTypes){
-    var Countries = sequelize.define("Countries", {
+    var Bluessouls = sequelize.define("Bluessouls", {
         artist:{
-            type: DataTypes.CHAR,
+            type: DataTypes.STRING,
             allowNull: false
         },
         album:{
-            type: DataTypes.CHAR,
+            type: DataTypes.STRING,
             allowNull: false
         },
         date: {
-            type: DataTypes.CHAR,
+            type: DataTypes.STRING,
             allowNull: false
         },
         genre:{
@@ -17,9 +17,9 @@ module.exports = function(sequelize, DataTypes){
             allowNull: false
         },
         like_artist:{
-            type: DataTypes.CHAR,
+            type: DataTypes.STRING,
             allowNull: false
         }
     });
-    return Countries;
+    return Bluessouls;
 };

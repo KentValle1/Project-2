@@ -1,16 +1,16 @@
 var db = require("../models");
 
 module.exports = function(app){
-    app.get("/api/electronic", function(req, res){
-        db.Electronic.findAll({}).then(function(dbElectronic){
+    app.get("/api/electronics", function(req, res){
+        db.Electronics.findAll({}).then(function(dbElectronic){
             res.json(dbElectronic);
         });
     });
 
-    app.get("/api/electronic/:id", function(req, res){
-        db.Electronic.findOne({
+    app.get("/api/electronics/:id", function(req, res){
+        db.Electronics.findOne({
             where: {
-                artist: req.params.artist
+                id: req.params.id
             }
         }).then(function(dbElectronic){
             res.json(dbElectronic);

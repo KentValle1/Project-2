@@ -1,4 +1,4 @@
-INSERT INTO ROCK (artist, album, date, genre, like_artists)
+INSERT INTO ROCKS (artist, album, date, genre, like_artists)
 VALUES("Elvis", "Elvis’ Golden Records" , "March 21 1958", "Rock'n'Roll", "Buddy Holly, Chuck Berry, Jerry Lee Lewis"),
 ("Beatles", "St Peppers Lonely Heart’s Club Band", "May 26 1967", "Psychedelic Pop Rock", "The Kinks, The Animals, The Yardbirds"),
 ("Rolling Stones" , "Beggars Banquet" , "December 06 1968", "Rock'n'Roll", "The Doors, Steppenwolf, Creedence Clearwater Revival"),
@@ -25,7 +25,7 @@ VALUES("Elvis", "Elvis’ Golden Records" , "March 21 1958", "Rock'n'Roll", "Bud
 ("The Black Keys" , "El Camino" , "December 06 2011", "Blues Rock Rivial", "Mumford and Sons, Cage the Elephant, Queens of the Stone Age" ),
 ("Imagine Dragons" , "Night Visions" , "September 04 2012", "Indie Pop Rock", "AWOLNATION, 21 Pilots, Walk the Moon");
     
-INSERT INTO POP (artist, album, date, genre, like_artists)
+INSERT INTO POPS (artist, album, date, genre, like_artists)
 VALUES("Beach Boys" , "All Summer Long" , "July 01 1964" , "Baroque Pop" , "The Monkees, The Mamas and The Papas, The Zombies"),
 ("David bowie", "Hunky Dory" , "December 17 1971", "Art Pop", "Lou Reed, Queen, The Talking Heads"),
 ("Elton John" , "Honky Chateau" , "May 19 1972" , "Piano Pop rock",  "Billy Joel, Chicago, Hall and Oats"),
@@ -51,7 +51,7 @@ VALUES("Beach Boys" , "All Summer Long" , "July 01 1964" , "Baroque Pop" , "The 
 ("Tame Impala" , "Currents" , "July 15 2015" , "New Pychedelic Pop" ,  "Animal Collective, MGMT, Beach House"),
 ("Arianna Grande" , "Thank you Next" , "February 08 2019", "Pop" , "Camila Cabello, Charlie XCX, Halsey");
 
-INSERT INTO METAL (artist, album, date, genre, like_artists)
+INSERT INTO METALS (artist, album, date, genre, like_artists)
 VALUES("Black Sabbath" , "Paranoid" , "September 18 1970" , "Heavy Metal",  "Dio, Ozzy Osbourne, Danzig"),
 ("Iron Maiden" , "The Number of the Beast" , "March 1982" , "Heavy Metal", "Manowar, Saxon, Diamond Head"),
 ("Slayer", "Reign in Blood", "October 07 1982", "Thrash Metal", "Venom, Overkill, Kreator"),
@@ -78,7 +78,7 @@ VALUES("Black Sabbath" , "Paranoid" , "September 18 1970" , "Heavy Metal",  "Dio
 ("Deafhaven", "Sunbather", "June 11 2013" , "Atmospheric Black Metal", "Altar of Plauges, Wolves in the Throne Room, Liturgy"),
 ("Ghost" , "Meloria" , "August 21 2015" , "Gothic Metal" , "Kvelertak, Candlemass, Type O Negative");
 
-INSERT INTO HIPHOP (artist, album, date, genre, like_artists)
+INSERT INTO HIPHOPS (artist, album, date, genre, like_artists)
 VALUES("N.W.A" , "Straight Outta Compton" , "August 08 1988" , "Gangster Rap", "Ice Cube, Dr. Dre, Ice T"),
 ("Public Enemy" , "Fear of a black Planet" , "April 10 1990" , "Conscious Hip-Hop", "Eric B & Rakim, Big Daddy Kane, Naughty By Nature"),
 ("LL Cool J" , "Mama Said Knock you Out", "September 18 1990" , "East Coast Hip-Hop" , "Run DMC, Sir Mix Alot, MC Hammer"),
@@ -105,7 +105,7 @@ VALUES("N.W.A" , "Straight Outta Compton" , "August 08 1988" , "Gangster Rap", "
 ("Post Malone" ,"Beerbongs & Bentleys" , "April 27 2018" , "Trap Rap, Emo Rap", "Rae Sremmurd, Migos, Juice WRLD"),
 ("Denzell Curry" , "Ta13oo" , "July 27 1018" , "Trap Rap, Conscious Hip-Hop", "21 Savage, Future, Lil Uzi Vert");
 
-INSERT INTO ELECTRONIC (artist, album, date, genre, like_artists)
+INSERT INTO ELECTRONICS (artist, album, date, genre, like_artists)
 VALUES("Kraftwork", "Computer World", "May 10 1981", "Electronic" , "Yello, Devo, The Art of Noise"),
 ("New Order", "Power, Corruption & Lies", "May 02 1983", "Synthpop", "The Cure, Eurythmics, The Psychedelic Furs"),
 ("Pet Shop Boys", "Actually", "September 07 1987", "Synthpop", "A-Ha, The Human League, Erasure"),
@@ -133,7 +133,7 @@ Final Fantasy VII Original Sound Track"),
 ("FKA Twigs" , "LP1 ", "August 06 2014" , "Glitch Pop" , "SZA, M.I.A, Arca"),
 ("Billie Eilish", "When We All Fall Asleep, Where Do We Go?", "March 29 2019", "ElectroPop", "Lorde, King Princess, Poppy");
 
-INSERT INTO COUNTRY (artist, album, date, genre, like_artists)
+INSERT INTO COUNTRIES (artist, album, date, genre, like_artists)
 VALUES("Neil Young" ," After the Gold Rush ", "September 19 1970" , "Country Rock", "Crosby Stills & Nash, Buffalo Springfield, Nick Drake"),
 ("Allman Brothers" , "Brothers and Sisters" , "August 1973" , "Southern Rock" , "Gov't Mule, The Outlaws, James Gang"),
 ("Dolly Parton" , "Jolene" , "February 04 1974" , "Traditional Coutry" , "Loretta Lynn, Tanya Tucker, Tammy Wynette"),
@@ -160,7 +160,7 @@ VALUES("Neil Young" ," After the Gold Rush ", "September 19 1970" , "Country Roc
 ("Keith Urban" , "Ripcord" , "May 06 2016" , "Country Pop", "Blake Shelton, Billy Currington, Eric Church"),
 ("Florida Georgia Line" , "Dig Your Roots" , "August 26 2016" , "Country Crossover" , "Dustin Lynch, Brantley Gilbert, Thomas Rhett");
 
-INSERT INTO BLUESSOUL (artist, album, date, genre, like_artists)
+INSERT INTO BLUESSOULS (artist, album, date, genre, like_artists)
 VALUES("Miles Davis" , "Kind of Blue" , "August 17 1959" , "Jazz Fusion", "Sonny Rollins, Thelonius Monk, Wayne Shorter"),
 ("John Coltrane" , "A Love Supreme" , "February 1965" , "Jazz" , "Dexter Gordon, Freddie Hubbard, Charles Mingus"),
 ("Muddy Waters" , "The Real Folk Blues" ,  "January 1966" , "Blues", "Otis Rush, John Lee Hooker, Little Walter"),
