@@ -3,80 +3,86 @@ CREATE database album_genresDB;
 
 USE album_genresDB;
 
-CREATE TABLE ROCK (
-  position INT NOT NULL AUTO_INCREMENT,
-  artist VARCHAR(100) NULL,
-  album VARCHAR(100) NULL,
-  date VARCHAR(100) NULL,
-  genre TEXT(100) NULL,
-  like_artists VARCHAR(100) NULL,
-  PRIMARY KEY (position)
-);
-
-CREATE TABLE POP (
-  position INT AUTO_INCREMENT,
+CREATE TABLE ROCKS (
+  id INT NOT NULL AUTO_INCREMENT,
   artist VARCHAR(100) NULL,
   album VARCHAR(100) NULL,
   date VARCHAR(100) NULL,
   genre TEXT(100) NULL,
   like_artists VARCHAR(400) NULL,
-  PRIMARY KEY (position)
+  createdAt INT NULL,
+  updatedAt INT NULL,
+  PRIMARY KEY (id)
 );
 
-CREATE TABLE COUNTRY (
-  position INT AUTO_INCREMENT,
+CREATE TABLE POPS (
+  id INT AUTO_INCREMENT,
   artist VARCHAR(100) NULL,
   album VARCHAR(100) NULL,
   date VARCHAR(100) NULL,
   genre TEXT(100) NULL,
   like_artists VARCHAR(400) NULL,
-  PRIMARY KEY (position)
+  createdAt INT NULL,
+  updatedAt INT NULL,
+  PRIMARY KEY (id)
 );
 
-CREATE TABLE ELECTRONIC (
-  position INT AUTO_INCREMENT,
+CREATE TABLE COUNTRIES (
+  id INT AUTO_INCREMENT,
   artist VARCHAR(100) NULL,
   album VARCHAR(100) NULL,
   date VARCHAR(100) NULL,
   genre TEXT(100) NULL,
   like_artists VARCHAR(400) NULL,
-  PRIMARY KEY (position)
+  createdAt INT NULL,
+  updatedAt INT NULL,
+  PRIMARY KEY (id)
 );
 
-CREATE TABLE METAL (
-  position INT AUTO_INCREMENT,
+CREATE TABLE ELECTRONICS (
+  id INT AUTO_INCREMENT,
   artist VARCHAR(100) NULL,
   album VARCHAR(100) NULL,
   date VARCHAR(100) NULL,
   genre TEXT(100) NULL,
   like_artists VARCHAR(400) NULL,
-  PRIMARY KEY (position)
+  createdAt INT NULL,
+  updatedAt INT NULL,
+  PRIMARY KEY (id)
 );
 
-CREATE TABLE HIPHOP (
-  position INT AUTO_INCREMENT,
+CREATE TABLE METALS (
+  id INT AUTO_INCREMENT,
   artist VARCHAR(100) NULL,
   album VARCHAR(100) NULL,
   date VARCHAR(100) NULL,
   genre TEXT(100) NULL,
   like_artists VARCHAR(400) NULL,
-  PRIMARY KEY (position)
+  createdAt INT NULL,
+  updatedAt INT NULL,
+  PRIMARY KEY (id)
 );
 
-CREATE TABLE BLUESSOUL (
-  position INT AUTO_INCREMENT,
+CREATE TABLE HIPHOPS (
+  id INT AUTO_INCREMENT,
   artist VARCHAR(100) NULL,
   album VARCHAR(100) NULL,
   date VARCHAR(100) NULL,
   genre TEXT(100) NULL,
   like_artists VARCHAR(400) NULL,
-  PRIMARY KEY (position)
+  createdAt INT NULL,
+  updatedAt INT NULL,
+  PRIMARY KEY (id)
 );
 
-SELECT * FROM ROCK;
-SELECT * FROM POP;
-SELECT * FROM COUNTRY;
-SELECT * FROM ELECTRONIC;
-SELECT * FROM METAL;
-SELECT * FROM HIPHOP;
-SELECT * FROM BLUESSOUL;
+CREATE TABLE BLUESSOULS (
+  id INT AUTO_INCREMENT,
+  artist VARCHAR(100) NULL,
+  album VARCHAR(100) NULL,
+  date VARCHAR(100) NULL,
+  genre TEXT(100) NULL,
+  like_artists VARCHAR(400) NULL,
+  createdAt INT NULL,
+  updatedAt INT NULL,
+  PRIMARY KEY (id)
+);
