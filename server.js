@@ -22,7 +22,7 @@ app.engine(
 app.set("view engine", "handlebars");
 
 // Routes
-require("./routes/music.js")(app);
+require("./routes/api-routes.js")(app);
 require("./routes/htmlRoutes.js")(app);
 
 var syncOptions = { force: false };

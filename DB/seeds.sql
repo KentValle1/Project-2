@@ -1,4 +1,4 @@
-INSERT INTO music (artist, album, date, genre, like_artists)
+INSERT INTO music (artist, album, date, genre, likeArtists)
 VALUES("Elvis", "Elvis’ Golden Records" , "March 21 1958", "Rock'n'Roll", "Buddy Holly, Chuck Berry, Jerry Lee Lewis"),
 ("Beatles", "St Peppers Lonely Heart’s Club Band", "May 26 1967", "Psychedelic Pop Rock", "The Kinks, The Animals, The Yardbirds"),
 ("Rolling Stones" , "Beggars Banquet" , "December 06 1968", "Rock'n'Roll", "The Doors, Steppenwolf, Creedence Clearwater Revival"),

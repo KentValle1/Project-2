@@ -8,7 +8,7 @@ CREATE TABLE music (
   album VARCHAR(100) NULL,
   date VARCHAR(100) NULL,
   genre TEXT(100) NULL,
-  like_artists VARCHAR(400) NULL,
+  likeArtists VARCHAR(400) NULL,
   createdAt INT NULL,
   updatedAt INT NULL,
   PRIMARY KEY (id)

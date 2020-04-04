@@ -9,7 +9,7 @@ var handleFormSubmit = function(event) {
     like_artist: $newLikeArtist.val().trim()
   };
 
-  $.ajax("/api/genre", {
+  $.ajax("/newMusic", {
     type: "POST",
     data: newMusic
   }).then(function(){
@@ -19,9 +19,9 @@ var handleFormSubmit = function(event) {
 };
 
 var handleSearchClick = function() {
-
+  console.log("search was clicked");
 };
 
 // Add event listeners to the submit and delete buttons
 $submitBtn.on("click", handleFormSubmit);
-$.on("click", "#search", handleSearchClick);
+$search.on("click", handleSearchClick);
