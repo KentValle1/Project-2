@@ -22,13 +22,7 @@ app.engine(
 app.set("view engine", "handlebars");
 
 // Routes
-require("./routes/bluessoul-api-routes.js")(app);
-require("./routes/metal-api-routes.js")(app);
-require("./routes/pop-api-routes.js")(app);
-require("./routes/rock-api-routes.js")(app);
-require("./routes/country-api-routes.js")(app);
-require("./routes/hiphop-api-routes.js")(app);
-require("./routes/electronic-api-routes.js")(app);
+require("./routes/api-routes.js")(app);
 require("./routes/htmlRoutes.js")(app);
 
 var syncOptions = { force: false };
