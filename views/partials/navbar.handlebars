@@ -1,0 +1,28 @@
+<nav class="navbar navbar-default navigation-clean headerContainer">
+    <div class="container ">
+        <div class="navbar-header"><a id="logo" class="navbar-brand navbar-link" href="/">GenreHound</a>
+            <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+        </div>
+        <div class="collapse navbar-collapse" id="navcol-1">
+            <ul class="nav navbar-nav navbar-right">
+                {{!-- {{#if isAuthenticated}}
+                <script src="..." charset="utf-8"></script>
+                <li role="presentation"><a href="/...">Search</a></li>
+                <li role="presentation"><a href="/...">Favorites</a></li>
+                <li role="presentation"><a href="/...">Dashboard</a></li>
+                <li role="presentation"><a href="/...">Logout</a></li>
+                {{/if}} --}}
+                {{!-  {{#unless isAuthenticated}}
+                <li role="presentation"><a href="/recipeSearch">EXPLORE NEW GENRES</a></li>
+                <li role="presentation"><a href="/#howitworks">HOW IT WORKS</a></li>
+                {{!--  <li role="presentation"><a href="/login">LOGIN </a></li>
+                <li role="presentation"><a id="signupBtn" href="/register">SIGN UP</a></li> --}}
+                {{!-  {{/unless}}
+            </ul>
+            <form class="form-inline" action="/" method="GET">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="genre">
+                <button class="btn btn-outline-success my-2 my-sm-0" id="search" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
